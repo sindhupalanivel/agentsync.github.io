@@ -1,0 +1,23 @@
+#clientlogin {
+    background-image: url('../../../assets/images/client/loginbackground.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#clientlogin h1 {
+    color: #fff;
+}
+
+.sync {
+    color: #F99D88 !important;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-image: url('../../../assets/images/client/mobileloginbackground.jpg');
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+    }
+}
